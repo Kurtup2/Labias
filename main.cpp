@@ -7,15 +7,15 @@ void myFunction ( int lino, int rullis, int plat, int gar){
 
   int sum, summa1 ; 
   sum = lino * plat;
-  cout << " Izmaksas izklājot platumā :\n" <<sum;
+  cout << "\n Izmaksas izklājot platumā : " <<sum;
 
   int summ, summa2 ;
   summ = lino * gar;
-  cout << " Izmaksas izklājot garumā :\n" <<summ;
+  cout << "\n Izmaksas izklājot garumā : " <<summ;
 
   int summm, summa3 ;
   summm = lino * ( plat * gar );
-  cout << " Izmaksas izklājot pa visu telpu :\n" <<summm;
+  cout << "\n Izmaksas izklājot pa visu telpu : " <<summm;
 }
 
 
